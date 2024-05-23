@@ -20,3 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // root.render(heading);
 root.render(parent);
+
+function isAge18(){
+    return age>=18;
+}
